@@ -8,8 +8,12 @@ input {
     border-radius: 5px;
 }
 
+img{
+    max-width: 100%;
+}
+
 .grid-container{
-    display: grid;
+  display: grid;
   grid-template-columns: auto auto ;
   gap: 90px;
   padding: 10px;
@@ -17,8 +21,25 @@ input {
   margin-top: 72px;
   margin-bottom: 72px;
 }
+.grid-item1{
+    width: 550px;
+    height: 550px; 
+    margin-top: -50px;
+    margin-left : 90px; 
+    border: 20px solid #FFFFFF;
+    max-width: 100%;
+}
 .grid-item2{
-    line-height: 50px;margin-right: 90px;
+    line-height: 50px;
+    margin-right: 90px;
+}
+.p-expert{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+}
+.login{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:xx-large;
 }
 .loginbutton{
     display: flex; justify-content: space-between; align-items:center ;margin-top: 10px;
@@ -26,3 +47,242 @@ input {
 .loginbutton button{
     height: 45px;width: 138px;border-radius: 20px;background: #C8242F; border: none;color: white;
 }
+
+/* dashboard css */
+.menuimg{
+margin-top: 20px;
+margin-left: 29px;
+width: 18px;
+height: 12px;
+}
+
+.navlogo{
+margin-top: 20px;
+margin-left: 25px;
+width: 142px;
+height: 30px;
+opacity: 1;
+}
+
+.searchicon{
+margin-top: 22px;
+margin-left: 50px;
+width: 16px;
+height: 16px;
+opacity: 1;
+}
+
+.searchtxt{
+position: fixed;
+font-family: Roboto, Regular;
+margin-top: 5px;
+margin-left: 290px;
+width: 500px;
+height: 5px;
+text-align: left;
+}
+
+.bell{
+   margin-top: 28px;
+    margin-left: 850px;
+    width: 22px;
+    height: 21px;
+    opacity: 1;
+}
+.profileimg{
+margin-top: 25px;
+margin-left: 30px;
+width: 44px;
+height: 44px;
+opacity: 1;
+}
+
+.profilename{
+margin-top: 28px;
+margin-left: 10px;
+width: 68px;
+height: 21px;
+text-align: left;
+font: normal normal normal 16px/21px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.downarrow{
+margin-top: 25px;
+left: 1507px;
+width: 10px;
+height: 6px;
+opacity: 1;
+}
+
+/* --------------------sidebar------------------------------*/
+.sidebar{
+    margin-top: 30px;
+    background-color: #ede6e9;
+}
+.sidebar li{
+    margin-left: 15px;
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+  li>img{
+    height: 20px;
+    width: 20px;
+    
+    list-style-type: none;
+    
+}
+a{
+    text-decoration:none;
+    color: #000000;
+}
+ul{
+    
+    list-style-type: none;
+}
+
+.sidebar a:hover:not(.active) {
+    color: rgb(225, 14, 14);
+}
+.sidebar img:hover:not(.active) {
+    color: rgb(225, 14, 14);
+}
+
+/* mini dashboard........................................................................... */
+.mdr1{
+position:relative;
+ margin: 30px;
+ background-color: rgb(234, 233, 233);
+}
+.mdr-img{
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+.sale{
+font-weight:500;
+text-align: left;
+margin-left: 20px;
+font-size: x-large;
+font: normal normal medium 22px/29px Roboto;
+}
+
+.Weekly{
+    margin-left: 440px;
+}
+.Monthly{
+    margin-left: 20px;
+}
+.Yearly{
+    margin-left: 20px;
+    color: #C8242F;
+}
+.graph1{
+    height: 70px;
+}
+.linechart{
+    margin-left: 20px;
+    height: 70px;
+    width: 700px;
+}
+.graph2{
+    height: 60px;
+margin-left: 30px;
+}
+.pie-header{
+    margin-top: 10px;
+}
+/* table..................................................... */
+.invoices{
+    position: absolute;
+    margin-top: 300px;
+    left: 292px;
+    width: 1000px;
+    height: 558px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.invoices-top{
+    justify-content: space-between;
+}
+.sales-title{
+    font-weight: 700;
+top: 781px;
+margin-left: 18px;
+width: 82px;
+height: 29px;
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+color: #3E3E3E;
+}
+.sales-year{
+    margin-left: 930px;
+    color: #C8242F;
+}
+
+.invoice-table{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:100%;
+}
+table tr{
+    height:27px;
+}
+
+table th{
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 1.5px;
+    color: #ADADAD;
+    opacity: 1;
+}
+
+table td{
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.status-sucess{
+    text-align: left;
+    color: #72b57f;
+    background: #EBFFEF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.status-fail{
+   
+    text-align: left;
+    color: #FF4545;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.status-pending{
+    text-align: left;
+    color:#BABABA;
+    background: #F8F8F8  0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.status-sucess span{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2.13px;
+    margin-bottom: 3.87px;
+     opacity: 1;
+}
+

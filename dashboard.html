@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashbord</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+  <body>
+    <div class="dash-container">
+      <!-- Nav bar -->
+      <div class="header" style="display: flex">
+        <div class="menuimg">
+          <img src="images\menu-bar.svg" />
+        </div>
+
+        <div class="navlogo">
+          <img src="images/header-logo.svg" />
+        </div>
+
+        <div class="searchicon">
+          <img src="images/search-icon.svg" />
+        </div>
+
+        <div class="searchtxt">
+          <input type="search" placeholder="Search" />
+        </div>
+
+        <div class="bell">
+          <img src="images/notification-icon.svg" />
+        </div>
+
+        <div class="profileimg">
+          <img src="images/profile.png" />
+        </div>
+        <div class="profilename">
+          <p>john Doe</p>
+        </div>
+        <div class="downarrow">
+          <img src="images/downward-arrow.svg" />
+        </div>
+      </div>
+
+      <!---------------------------- Side bar ----------------------------------->
+      <div class="down-dash" style="display: flex">
+        <div class="sidebar" style="width: 20%">
+          <ul>
+            <li>
+              <img src="images/dashboard-default.svg" />
+              <a href="#">Dashbord</a>
+            </li>
+            <li>
+              <img src="images/graph-default.svg" />
+              <a href="#">Analysis</a>
+            </li>
+            <li>
+              <img src="images/inbox-default.svg" />
+              <a href="#">Inbox</a>
+            </li>
+            <li>
+              <img src="images/clock-default.svg" />
+              <a href="#">History</a>
+            </li>
+            <li>
+              <img src="images/user-default.svg" />
+              <a href="#">Users</a>
+            </li>
+            <li>
+              <img src="images/maintenance-default.svg" />
+              <a href="#">Maintenance</a>
+            </li>
+            <li>
+              <img src="images/setting-default.svg" />
+              <a href="#">Setting</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ------------------------Dashboard----------------------->
+        <div class="mini-dash">
+          <h2
+            style="
+              padding-left: 20px;
+              padding-top: 20px;
+              font-family: Roboto, Medium;
+              font-weight: bold;
+            "
+          >
+            Dashboard
+          </h2>
+
+          <div class="mini-dash-raw" style="display: flex">
+            <div class="mdr1" style="display: flex">
+              <div class="mdr-img">
+                <img src="images/star.svg" />
+              </div>
+              <div>
+                <h4>23,456</h4>
+                <h6>New Products</h6>
+              </div>
+            </div>
+
+            <div class="mdr1" style="display: flex">
+              <div class="mdr-img">
+                <img src="images/new-product.svg" />
+              </div>
+              <div>
+                <h4>2345</h4>
+                <h6>Added Products</h6>
+              </div>
+            </div>
+
+            <div class="mdr1" style="display:flex">
+              <div class="mdr-img">
+                <img src="images/total-product.svg" height="40px" width="40px" />
+              </div>
+              <div>
+                <h4>32,456</h4>
+                <h6>Total Products</h6>
+              </div>
+            </div>
+
+            <div class="mdr1" style="display: flex">
+              <div class="mdr-img">
+                <img src="images/dollar-filled.svg" />
+              </div>
+              <div>
+                <h4>5678</h4>
+                <h6>Today's Sale</h6>
+              </div>
+            </div>
+
+            <div class="mdr1" style="display: flex">
+              <div class="mdr-img">
+                <img src="images/money-bag.svg" />
+              </div>
+              <div>
+                <h4>33,5342</h4>
+                <h6>Total Sale</h6>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------mdr-2------------------------------------------ -->
+          <div class="mdr2" style="display: flex">
+            <div class="graph1">
+              <div class="graph-nav">
+                <span class="sale">Sale</span>
+                <span class="Weekly">Weekly</span>
+                <span class="Monthly">Monthly</span>
+                <span class="Yearly">Yearly</span>
+              </div>
+              <div class="linechart">
+                <img src="images\data-graph.png" />
+              </div>
+            </div>
+            <div class="graph2">
+              <h4 class="pie-header">Sales by Country</h4>
+              <img
+                src="images/pie-chart.svg"
+                style="margin-left: 30px"
+                width="200px"
+                height="200px"
+              />
+              <div>
+                <table>
+                  <tr>
+                    <td><img src="images/radio-checked-icon.svg" /></td>
+                    <td>United States of America</td>
+                    <td>
+                      <img
+                        src="images/radio-checked-icon.svg"
+                        height="40px"
+                        width="40px"
+                      />
+                    </td>
+                    <td>Canada</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/radio-checked-icon.svg"
+                        height="40px"
+                        width="40px"
+                      />
+                    </td>
+                    <td>Russia</td>
+                    <td>
+                      <img
+                        src="images/radio-checked-icon.svg"
+                        height="40px"
+                        width="40px"
+                      />
+                    </td>
+                    <td>India</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- --------------------------------------------------- -->
+          <div class="invoices">
+            <div class="invoices-top">
+                <span class="sales-title">Invoices</span>
+                <span class="sales-year">View all</span>
+            </div>
+            
+            <div class="invoices-bottom">
+                <table class="invoice-table">
+                    <tr>
+                        <th>INVOICE</th>
+                        <th>COMPANY NAME</th>
+                        <th>EMAIL</th>
+                        <th>DUE DATE</th>
+                        <th>STATUS</th>
+                        <th>AMOUNT</th>
+                    </tr>
+
+                    <tr>
+                        <td>651535</td>
+                        <td>Public Adjusting Film</td>
+                        <td>georgia@young.example</td>
+                        <td>24 May,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$47,800</td>
+                    </tr>
+
+                    <tr>
+                        <td>558612</td>
+                        <td>Other</td>
+                        <td>georgia@young.example</td>
+                        <td>04 March,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$34,560</td>
+                    </tr>
+
+                    <tr>
+                        <td>558612</td>
+                        <td>Vendor</td>
+                        <td>georgia@young.example</td>
+                        <td>23 June,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$43,820</td>
+                    </tr>
+
+                    <tr>
+                        <td>651535</td>
+                        <td>Property Management</td>
+                        <td>georgia@young.example</td>
+                        <td>14 July,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$16,880</td>
+                    </tr>
+
+                    <tr>
+                        <td>651528</td>
+                        <td>Subcontractor</td>
+                        <td>georgia@young.example</td>
+                        <td>21 August,2020</td>
+                        <td class="status-fail"> <span>Failed</span></td>
+                        <td>$23,564</td>
+                    </tr>
+
+                    <tr>
+                        <td>651535</td>
+                        <td>Mortgage Company</td>
+                        <td>georgia@young.example</td>
+                        <td>13 April,2020</td>
+                        <td class="status-pending"> <span>Pending</span></td>
+                        <td>$27,523</td>
+                    </tr>
+
+                    <tr>
+                        <td>483518</td>
+                        <td>TPA</td>
+                        <td>georgia@young.example</td>
+                        <td>29 May,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$57,856</td>
+                    </tr>
+
+                    <tr>
+                        <td>267400</td>
+                        <td>Fire Department</td>
+                        <td>georgia@young.example</td>
+                        <td>06 June,2020</td>
+                        <td class="status-sucess"> <span>Paid</span></td>
+                        <td>$25,850</td>
+                    </tr>
+
+                    <tr>
+                        <td>449003</td>
+                        <td>Insurance</td>
+                        <td>georgia@young.example</td>
+                        <td>25 September,2020</td>
+                        <td class="status-fail"> <span>Failed</span></td>
+                        <td>$17,800</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

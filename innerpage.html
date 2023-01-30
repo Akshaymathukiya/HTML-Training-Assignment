@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inner Page</title>
+    <!-- <link rel="stylesheet" href="css\bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/innerpage.css" />
+  </head>
+  <body>
+    <div class="dash-container">
+      <!-- Nav bar -->
+      <div class="header" style="display: flex">
+        <div class="menuimg">
+          <img src="images\menu-bar.svg" />
+        </div>
+
+        <div class="navlogo">
+          <img src="images/header-logo.svg" />
+        </div>
+
+        <div class="searchicon">
+          <img src="images/search-icon.svg" />
+        </div>
+
+        <div class="searchtxt">
+          <input type="search" placeholder="Search" />
+        </div>
+
+        <div class="bell">
+          <img src="images/notification-icon.svg" />
+        </div>
+
+        <div class="profileimg">
+          <img src="images/profile.png" />
+        </div>
+        <div class="profilename">
+          <p>john Doe</p>
+        </div>
+        <div class="downarrow">
+          <img src="images/downward-arrow.svg" />
+        </div>
+      </div>
+
+      <!---------------------------- Side bar ----------------------------------->
+      <div class="down-dash" style="display: flex">
+        <div class="sidebar" style="width: 20%">
+          <ul>
+            <li>
+              <img src="images/dashboard-default.svg" />
+              <a href="#">Dashbord</a>
+            </li>
+            <li>
+              <img src="images/graph-default.svg" />
+              <a href="#">Analysis</a>
+            </li>
+            <li>
+              <img src="images/inbox-default.svg" />
+              <a href="#">Inbox</a>
+            </li>
+            <li>
+              <img src="images/clock-default.svg" />
+              <a href="#">History</a>
+            </li>
+            <li>
+              <img src="images/user-default.svg" />
+              <a href="#">Users</a>
+            </li>
+            <li>
+              <img src="images/maintenance-default.svg" />
+              <a href="#">Maintenance</a>
+            </li>
+            <li>
+              <img src="images/setting-default.svg" />
+              <a href="#">Setting</a>
+            </li>
+          </ul>
+        </div>
+        <div class="analysis">
+          <h3 class="analysis-heading">Analysis</h3>
+          <div class="one-column">
+            <h4 class="one-col-heading">One Column</h4>
+            <input class="name" type="text" placeholder="Name" />
+
+            <select name="dropdown" class="dropdown1">
+              <option>Dropdown</option>
+            </select>
+
+            <textarea class="textarea1" placeholder="Multiple line"> </textarea>
+          </div>
+
+          <div class="two-column">
+            <h4 class="one-col-heading">Two Column</h4>
+            <div clsss="col2-1" style="display: flex">
+              <input class="name2" type="text" placeholder="Name" />
+              <fieldset class="Username2">
+                <legend>Username</legend>
+                <label>john doe</label>
+              </fieldset>
+            </div>
+            <div class="col2-1" style="display: flex">
+              <input class="password" type="password" placeholder="Password" />
+              <select name="dropdown" class="dropdown2">
+                <option>Dropdown</option>
+              </select>
+            </div>
+          </div>
+          <div class="three-column">
+            <h4 class="one-col-heading">Three Column</h4>
+            <table class="table3">
+              <tr class="raw3">
+                <td>
+                  <fieldset class="fs3">
+                    <legend>Focus</legend>
+                    <label>|</label>
+                  </fieldset>
+                </td>
+                <td>
+                  <fieldset class="fs3">
+                    <legend>Password</legend>
+                    <label>..........</label>
+                  </fieldset>
+                </td>
+                <td>
+                  <fieldset class="fs3">
+                    <legend>Disabled</legend>
+                    <label>johndoe</label>
+                  </fieldset>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="Four-column">
+            <h4 class="one-col-heading">Four Column</h4>
+            <table class="table4">
+              <tr class="raw4">
+                <td>
+                  <fieldset class="name2">
+                    <legend>Designation</legend>
+                    <label>UI Designer</label>
+                  </fieldset>
+                </td>
+
+                <td><input type="text" /></td>
+
+                <td>
+                  <fieldset class="name2">
+                    <legend>Username</legend>
+                    <label>johndoe</label>
+                  </fieldset>
+                </td>
+                <td>
+                  <select name="dropdown" class="name2">
+                    <option>Select</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+            <span class="sub-de4">Enter valid data</span>
+            <span class="sub-name4">Enter your full name as per ID</span>
+          </div>
+          <!-- ------------------------------------------- -->
+          <div class="ode">
+            <h6 class="h65">Other Design Elements</h6>
+            <p class="fileupload"><b>File Upload</b></p>
+            <input type="button" value="Upload" class="upload" /><span
+              class="noitem"
+              >No Item Selected</span
+            >
+
+            <p class="radio"><b>Radio Button</b></p>
+
+            <div class="radioo">
+              <input type="radio" class="radio1" name="Radio1" value="Radio1" />
+              <label for="Radio1">Option 1</label>
+              <input
+                type="radio"
+                class="radio2"
+                name="Radio2"
+                value="Radio2"
+                checked
+              />
+              <label for="Radio2">Option 2</label>
+            </div>
+            <p class="checkbox"><b>Checkbox</b></p>
+            <div class="checkbox2">
+              <input type="checkbox" name="option1" id="option11" />
+              <label for="option11"> Option 1</label>
+              <input type="checkbox" name="option2" id="option22" checked />
+              <label for="option22"> Option 2</label>
+            </div>
+            <p class="snackbar"><b>Snack Bar</b></p>
+            <div class="snackbar1">
+              <input
+                type="text"
+                name="placeholder"
+                placeholder="This is an error message"
+                class="snackbar11"
+                style="color: red"
+              />
+              <input
+                type="text"
+                class="snackbar12"
+                name="palceholder"
+                placeholder="this is an information message"
+              />
+            </div>
+            <div class="snackbar2">
+              <input
+                type="text"
+                name="placeholder"
+                placeholder="This is a warning message"
+                class="snackbar21"
+              />
+              <input
+                type="text"
+                class="snackbar22"
+                name="palceholder"
+                placeholder="this is Success message"
+              />
+            </div>
+
+            <p class="call"><b>Call to action</b></p>
+            <div class="call1">
+              <button class="button11">Primary</button>
+              <button class="button12">Secondary</button>
+            </div>
+            <p class="tab"><b>Tabs</b></p>
+            <p class="maintab" style="display: flex">
+              <b class="tab1" style="color: crimson">Tab1</b>
+              <b class="tab2" style="color: rgb(11, 11, 11)">Tab2</b>
+              <b class="tab3" style="color: rgb(10, 9, 10)">Tab3</b>
+            </p>
+            <p class="red">__</p>
+            <hr class="horizontalline" />
+          </div>
+
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+            accusantium. Reiciendis placeat reprehenderit quibusdam sint
+            cupiditate? Temporibus, fugit quaerat distinctio sint repellat nam
+            rerum officia sunt recusandae provident harum maxime incidunt quia
+            perspiciatis explicabo omnis veritatis, numquam necessitatibus
+            delectus tempora? Non accusamus dolores praesentium voluptas neque
+            earum suscipit perferendis, ea, odio, soluta itaque velit in
+            tenetur! Quas quis sapiente inventore hic non? Nesciunt, culpa.
+            Impedit corporis fugiat doloremque nostrum libero!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
